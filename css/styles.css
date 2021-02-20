@@ -289,7 +289,47 @@ img {
   /* outline: 1px solid tomato; */
 }
 
+/* footer */
+
+footer {
+  background-color: var(--third-bg-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.conteiner-footer {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  outline: 1px solid tomato;
+}
+
+.logo-footer {
+  color: var(--title-text-color);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
 /* address */
+
+.address {
+  margin-top: 20px;
+}
+
+.link-item:not(:last-child) {
+  margin-bottom: 9px;
+  /* margin-top: 0; */
+}
 
 .address-title {
   color: var(--primary-bg-color);
@@ -307,16 +347,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-}
-
-/* footer */
-
-footer {
-  background-color: var(--third-bg-color);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 /* portfolio */
