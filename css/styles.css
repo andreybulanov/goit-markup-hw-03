@@ -175,6 +175,14 @@ img {
 }
 
 .button.secondary {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   font-weight: 500;
@@ -317,7 +325,6 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
 /* address */
@@ -351,6 +358,10 @@ footer {
 
 /* portfolio */
 
+.btn-item {
+  display: flex;
+}
+
 .portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -363,4 +374,26 @@ footer {
   font-weight: 400l;
   font-size: 16px;
   line-height: 1.87;
+}
+
+.project-list {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 94px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.project-item {
+  flex-basis: calc(100% / 3 - 30px);
+
+  margin-left: 30px;
+  margin-top: 30px;
+  box-shadow: var(--card-shadow);
+  border-radius: 4px;
+  overflow: hidden;
 }
