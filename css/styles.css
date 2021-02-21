@@ -358,10 +358,14 @@ footer {
 
 /* portfolio */
 
+.portfolio {
+  padding-top: 94px;
+}
+
 .btn-item {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  /* margin-top: 94px; */
 
   /* outline: 1px solid teal; */
 }
@@ -408,6 +412,7 @@ footer {
   box-shadow: var(--card-shadow);
   border-radius: 4px;
   overflow: hidden;
+  border: 1px solid #eeeeee;
 }
 
 .project-item:nth-child(3n) {
