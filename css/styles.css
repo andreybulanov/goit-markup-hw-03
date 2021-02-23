@@ -46,7 +46,7 @@ ul {
 
 .img {
   display: block;
-  max-width: 100%;
+  min-width: 100%;
   height: auto;
 }
 
@@ -264,6 +264,10 @@ ul {
 
 /* team */
 
+.team {
+  background: var(--secondary-bg-color);
+}
+
 .team-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -300,6 +304,7 @@ ul {
   box-shadow: var(--card-shadow);
   border-radius: 4px;
   overflow: hidden;
+  background: var(--primary-bg-color);
 
   /* outline: 1px solid tomato; */
 }
